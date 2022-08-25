@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D02005328B0247100061A1A /* SepetimVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D02005228B0247100061A1A /* SepetimVC.swift */; };
+		2D3972BC28B27200003A696C /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3972BB28B27200003A696C /* CollectionViewCell.swift */; };
+		2D3972BE28B274CD003A696C /* Urunler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3972BD28B274CD003A696C /* Urunler.swift */; };
+		2D40EEE528B5569F002CDA4D /* Kategoriler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D40EEE428B5569F002CDA4D /* Kategoriler.swift */; };
+		2D44CF5F28B11A8800FBDDB1 /* KategorilerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D44CF5E28B11A8700FBDDB1 /* KategorilerViewController.swift */; };
+		2D44CF6128B11A9400FBDDB1 /* KampanyalarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D44CF6028B11A9400FBDDB1 /* KampanyalarViewController.swift */; };
+		2D44CF6328B11AAC00FBDDB1 /* HesabimViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D44CF6228B11AAC00FBDDB1 /* HesabimViewController.swift */; };
+		2D44CF9D28B1251100FBDDB1 /* Cairo-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2D44CF9228B1251100FBDDB1 /* Cairo-ExtraBold.ttf */; };
+		2D44CF9E28B1251100FBDDB1 /* Cairo-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2D44CF9328B1251100FBDDB1 /* Cairo-ExtraLight.ttf */; };
+		2D44CF9F28B1251100FBDDB1 /* Cairo-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2D44CF9428B1251100FBDDB1 /* Cairo-SemiBold.ttf */; };
+		2D44CFA028B1251100FBDDB1 /* Cairo-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2D44CF9528B1251100FBDDB1 /* Cairo-Medium.ttf */; };
+		2D44CFA128B1251100FBDDB1 /* Cairo-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2D44CF9628B1251100FBDDB1 /* Cairo-Regular.ttf */; };
+		2D44CFA228B1251100FBDDB1 /* Cairo-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2D44CF9728B1251100FBDDB1 /* Cairo-Light.ttf */; };
+		2D44CFA328B1251100FBDDB1 /* Cairo-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2D44CF9828B1251100FBDDB1 /* Cairo-Black.ttf */; };
+		2D44CFA428B1251100FBDDB1 /* Cairo-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2D44CF9928B1251100FBDDB1 /* Cairo-Bold.ttf */; };
+		2D44CFA528B1251100FBDDB1 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2D44CF9A28B1251100FBDDB1 /* OFL.txt */; };
+		2D44CFA628B1251100FBDDB1 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2D44CF9B28B1251100FBDDB1 /* README.txt */; };
+		2D44CFA728B1251100FBDDB1 /* Cairo-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2D44CF9C28B1251100FBDDB1 /* Cairo-VariableFont_wght.ttf */; };
+		2D53EAD228B5824E00BFD801 /* KategorilerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D53EAD128B5824E00BFD801 /* KategorilerCollectionViewCell.swift */; };
+		2DF5ADFC28B00596008158AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF5ADFB28B00596008158AC /* AppDelegate.swift */; };
+		2DF5ADFE28B00596008158AC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF5ADFD28B00596008158AC /* SceneDelegate.swift */; };
+		2DF5AE0028B00596008158AC /* Anasayfa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF5ADFF28B00596008158AC /* Anasayfa.swift */; };
+		2DF5AE0328B00596008158AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DF5AE0128B00596008158AC /* Main.storyboard */; };
+		2DF5AE0528B0059A008158AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DF5AE0428B0059A008158AC /* Assets.xcassets */; };
+		2DF5AE0828B0059A008158AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DF5AE0628B0059A008158AC /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2D02005228B0247100061A1A /* SepetimVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SepetimVC.swift; sourceTree = "<group>"; };
+		2D3972BB28B27200003A696C /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		2D3972BD28B274CD003A696C /* Urunler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Urunler.swift; sourceTree = "<group>"; };
+		2D40EEE428B5569F002CDA4D /* Kategoriler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kategoriler.swift; sourceTree = "<group>"; };
+		2D44CF5E28B11A8700FBDDB1 /* KategorilerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KategorilerViewController.swift; sourceTree = "<group>"; };
+		2D44CF6028B11A9400FBDDB1 /* KampanyalarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KampanyalarViewController.swift; sourceTree = "<group>"; };
+		2D44CF6228B11AAC00FBDDB1 /* HesabimViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HesabimViewController.swift; sourceTree = "<group>"; };
+		2D44CF9228B1251100FBDDB1 /* Cairo-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-ExtraBold.ttf"; sourceTree = "<group>"; };
+		2D44CF9328B1251100FBDDB1 /* Cairo-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-ExtraLight.ttf"; sourceTree = "<group>"; };
+		2D44CF9428B1251100FBDDB1 /* Cairo-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-SemiBold.ttf"; sourceTree = "<group>"; };
+		2D44CF9528B1251100FBDDB1 /* Cairo-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-Medium.ttf"; sourceTree = "<group>"; };
+		2D44CF9628B1251100FBDDB1 /* Cairo-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-Regular.ttf"; sourceTree = "<group>"; };
+		2D44CF9728B1251100FBDDB1 /* Cairo-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-Light.ttf"; sourceTree = "<group>"; };
+		2D44CF9828B1251100FBDDB1 /* Cairo-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-Black.ttf"; sourceTree = "<group>"; };
+		2D44CF9928B1251100FBDDB1 /* Cairo-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-Bold.ttf"; sourceTree = "<group>"; };
+		2D44CF9A28B1251100FBDDB1 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		2D44CF9B28B1251100FBDDB1 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		2D44CF9C28B1251100FBDDB1 /* Cairo-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		2D53EAD128B5824E00BFD801 /* KategorilerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KategorilerCollectionViewCell.swift; sourceTree = "<group>"; };
+		2DF5ADF828B00596008158AC /* migrosApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = migrosApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DF5ADFB28B00596008158AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2DF5ADFD28B00596008158AC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2DF5ADFF28B00596008158AC /* Anasayfa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anasayfa.swift; sourceTree = "<group>"; };
+		2DF5AE0228B00596008158AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2DF5AE0428B0059A008158AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2DF5AE0728B0059A008158AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2DF5AE0928B0059A008158AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2DF5ADF528B00596008158AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D40EEE228B55631002CDA4D /* Anasayfa */ = {
+			isa = PBXGroup;
+			children = (
+				2DF5ADFF28B00596008158AC /* Anasayfa.swift */,
+				2D3972BD28B274CD003A696C /* Urunler.swift */,
+				2D3972BB28B27200003A696C /* CollectionViewCell.swift */,
+			);
+			path = Anasayfa;
+			sourceTree = "<group>";
+		};
+		2D40EEE328B5565E002CDA4D /* Kategoriler */ = {
+			isa = PBXGroup;
+			children = (
+				2D44CF5E28B11A8700FBDDB1 /* KategorilerViewController.swift */,
+				2D53EAD128B5824E00BFD801 /* KategorilerCollectionViewCell.swift */,
+				2D40EEE428B5569F002CDA4D /* Kategoriler.swift */,
+			);
+			path = Kategoriler;
+			sourceTree = "<group>";
+		};
+		2D44CF9028B1251100FBDDB1 /* Cairo */ = {
+			isa = PBXGroup;
+			children = (
+				2D44CF9128B1251100FBDDB1 /* static */,
+				2D44CF9A28B1251100FBDDB1 /* OFL.txt */,
+				2D44CF9B28B1251100FBDDB1 /* README.txt */,
+				2D44CF9C28B1251100FBDDB1 /* Cairo-VariableFont_wght.ttf */,
+			);
+			path = Cairo;
+			sourceTree = "<group>";
+		};
+		2D44CF9128B1251100FBDDB1 /* static */ = {
+			isa = PBXGroup;
+			children = (
+				2D44CF9228B1251100FBDDB1 /* Cairo-ExtraBold.ttf */,
+				2D44CF9328B1251100FBDDB1 /* Cairo-ExtraLight.ttf */,
+				2D44CF9428B1251100FBDDB1 /* Cairo-SemiBold.ttf */,
+				2D44CF9528B1251100FBDDB1 /* Cairo-Medium.ttf */,
+				2D44CF9628B1251100FBDDB1 /* Cairo-Regular.ttf */,
+				2D44CF9728B1251100FBDDB1 /* Cairo-Light.ttf */,
+				2D44CF9828B1251100FBDDB1 /* Cairo-Black.ttf */,
+				2D44CF9928B1251100FBDDB1 /* Cairo-Bold.ttf */,
+			);
+			path = static;
+			sourceTree = "<group>";
+		};
+		2DF5ADEF28B00596008158AC = {
+			isa = PBXGroup;
+			children = (
+				2DF5ADFA28B00596008158AC /* migrosApp */,
+				2DF5ADF928B00596008158AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2DF5ADF928B00596008158AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2DF5ADF828B00596008158AC /* migrosApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2DF5ADFA28B00596008158AC /* migrosApp */ = {
+			isa = PBXGroup;
+			children = (
+				2D40EEE228B55631002CDA4D /* Anasayfa */,
+				2DF5ADFB28B00596008158AC /* AppDelegate.swift */,
+				2DF5ADFD28B00596008158AC /* SceneDelegate.swift */,
+				2D02005228B0247100061A1A /* SepetimVC.swift */,
+				2D44CF6028B11A9400FBDDB1 /* KampanyalarViewController.swift */,
+				2D44CF6228B11AAC00FBDDB1 /* HesabimViewController.swift */,
+				2D40EEE328B5565E002CDA4D /* Kategoriler */,
+				2DF5AE0428B0059A008158AC /* Assets.xcassets */,
+				2DF5AE0128B00596008158AC /* Main.storyboard */,
+				2DF5AE0628B0059A008158AC /* LaunchScreen.storyboard */,
+				2DF5AE0928B0059A008158AC /* Info.plist */,
+				2D44CF9028B1251100FBDDB1 /* Cairo */,
+			);
+			path = migrosApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2DF5ADF728B00596008158AC /* migrosApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DF5AE0C28B0059A008158AC /* Build configuration list for PBXNativeTarget "migrosApp" */;
+			buildPhases = (
+				2DF5ADF428B00596008158AC /* Sources */,
+				2DF5ADF528B00596008158AC /* Frameworks */,
+				2DF5ADF628B00596008158AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = migrosApp;
+			productName = migrosApp;
+			productReference = 2DF5ADF828B00596008158AC /* migrosApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2DF5ADF028B00596008158AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					2DF5ADF728B00596008158AC = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 2DF5ADF328B00596008158AC /* Build configuration list for PBXProject "migrosApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2DF5ADEF28B00596008158AC;
+			productRefGroup = 2DF5ADF928B00596008158AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2DF5ADF728B00596008158AC /* migrosApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2DF5ADF628B00596008158AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DF5AE0828B0059A008158AC /* LaunchScreen.storyboard in Resources */,
+				2D44CF9E28B1251100FBDDB1 /* Cairo-ExtraLight.ttf in Resources */,
+				2D44CFA128B1251100FBDDB1 /* Cairo-Regular.ttf in Resources */,
+				2D44CFA628B1251100FBDDB1 /* README.txt in Resources */,
+				2D44CFA728B1251100FBDDB1 /* Cairo-VariableFont_wght.ttf in Resources */,
+				2D44CFA428B1251100FBDDB1 /* Cairo-Bold.ttf in Resources */,
+				2D44CF9F28B1251100FBDDB1 /* Cairo-SemiBold.ttf in Resources */,
+				2D44CFA028B1251100FBDDB1 /* Cairo-Medium.ttf in Resources */,
+				2D44CFA528B1251100FBDDB1 /* OFL.txt in Resources */,
+				2DF5AE0528B0059A008158AC /* Assets.xcassets in Resources */,
+				2DF5AE0328B00596008158AC /* Main.storyboard in Resources */,
+				2D44CFA328B1251100FBDDB1 /* Cairo-Black.ttf in Resources */,
+				2D44CFA228B1251100FBDDB1 /* Cairo-Light.ttf in Resources */,
+				2D44CF9D28B1251100FBDDB1 /* Cairo-ExtraBold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2DF5ADF428B00596008158AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DF5AE0028B00596008158AC /* Anasayfa.swift in Sources */,
+				2DF5ADFC28B00596008158AC /* AppDelegate.swift in Sources */,
+				2D3972BC28B27200003A696C /* CollectionViewCell.swift in Sources */,
+				2D44CF6128B11A9400FBDDB1 /* KampanyalarViewController.swift in Sources */,
+				2D44CF6328B11AAC00FBDDB1 /* HesabimViewController.swift in Sources */,
+				2D53EAD228B5824E00BFD801 /* KategorilerCollectionViewCell.swift in Sources */,
+				2D02005328B0247100061A1A /* SepetimVC.swift in Sources */,
+				2D40EEE528B5569F002CDA4D /* Kategoriler.swift in Sources */,
+				2D44CF5F28B11A8800FBDDB1 /* KategorilerViewController.swift in Sources */,
+				2D3972BE28B274CD003A696C /* Urunler.swift in Sources */,
+				2DF5ADFE28B00596008158AC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2DF5AE0128B00596008158AC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DF5AE0228B00596008158AC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2DF5AE0628B0059A008158AC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DF5AE0728B0059A008158AC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2DF5AE0A28B0059A008158AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2DF5AE0B28B0059A008158AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2DF5AE0D28B0059A008158AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BQBXWBWH9H;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = migrosApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eyupemreaygun.migrosApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2DF5AE0E28B0059A008158AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BQBXWBWH9H;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = migrosApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eyupemreaygun.migrosApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2DF5ADF328B00596008158AC /* Build configuration list for PBXProject "migrosApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DF5AE0A28B0059A008158AC /* Debug */,
+				2DF5AE0B28B0059A008158AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DF5AE0C28B0059A008158AC /* Build configuration list for PBXNativeTarget "migrosApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DF5AE0D28B0059A008158AC /* Debug */,
+				2DF5AE0E28B0059A008158AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2DF5ADF028B00596008158AC /* Project object */;
+}
